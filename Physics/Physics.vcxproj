@@ -123,6 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BallSpawn.cpp" />
+    <ClCompile Include="dynamicCircle.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SFMLDebugDraw.cpp" />
+    <ClCompile Include="staticBlock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BallSpawn.h" />
+    <ClInclude Include="dynamicCircle.h" />
+    <ClInclude Include="Events.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="SFMLDebugDraw.h" />
+    <ClInclude Include="staticBlock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
